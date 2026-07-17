@@ -61,7 +61,7 @@ Users can upload documents and ask questions based on the uploaded content. The 
 
 ## 1. Clone Repository
 
-git clone https://github.com/your-username/conversational-rag-chatbot.git
+git clone https://github.com/Sumit-nahire/conversational-rag-chatbot.git
 
 cd conversational-rag-chatbot
 Backend Setup
@@ -76,7 +76,7 @@ Activate virtual environment:
 Windows
 venv\Scripts\activate
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 
@@ -84,7 +84,7 @@ Create .env file:
 
 GROQ_API_KEY=your_groq_api_key
 
-Run FastAPI server:
+# Run FastAPI server:
 
 python -m uvicorn main:app --reload
 
@@ -98,27 +98,25 @@ Frontend Setup
 Open another terminal:
 cd app
 
-Create virtual environment:
+# Create virtual environment:
 
 python -m venv venv
 
-Activate:
+# Activate:
 
 venv\Scripts\activate
 
 Install dependencies:
-
 pip install streamlit requests python-dotenv
 
 Run Streamlit:
-
 python -m streamlit run streamlit_app.py
 
 Frontend URL:
-
 http://localhost:8501
 
-🔌 API Endpoints
+# API Endpoints
+
 Method Endpoint Description
 POST /upload-doc Upload documents
 GET /list-docs Get uploaded documents
@@ -133,15 +131,14 @@ User asks a question.
 Relevant document chunks are retrieved.
 LLM generates the final response.
 
-🔐 Environment Variables
+# Environment Variables
 
 Create .env file:
-
 GROQ_API_KEY=your_api_key
-
 Never upload .env file to GitHub.
 
-🚫 .gitignore
+# .gitignore
+
 .env
 venv/
 **pycache**/
