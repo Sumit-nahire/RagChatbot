@@ -18,15 +18,15 @@ Users can upload documents and ask questions based on the uploaded content. The 
 
 # 🏗️ Project Architecture
 
-![Project strcuture](assets/struture.png)
+![Project strcuture](asset/struture.png)
 
 #Screenshots
 
-![Home](assets/Home.png)
+![Home](asset/Home.png)
 
-![Output](assets/output.png)
+![Output](asset/output.png)
 
-![uploaded pdf](assets/uploaded.png)
+![uploaded pdf](asset/uploaded.png)
 
 # 🛠️ Tech Stack
 
